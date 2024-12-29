@@ -11,9 +11,16 @@ button.addEventListener("click", function () {
   }
 
   const newtask = document.createElement("li");
+  const span = document.createElement("span");
+
+  span.addEventListener("click", function () {
+    span.parentElement.remove();
+  });
 
   newtask.textContent = tasktesk;
+  span.textContent = "X";
 
+  newtask.appendChild(span);
   task.appendChild(newtask);
 
   input.value = "";
