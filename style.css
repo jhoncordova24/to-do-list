@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container-main {
+  background: white;
+  width: 600px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid #2980b9;
+  border-radius: 5px;
+}
+
+h1 {
+  background-color: white;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.add {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.add-input {
+  background-color: #f4f6f6;
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  border: solid 1px white;
+  border-radius: 5px;
+  border: 1px solid white;
+  outline: none;
+}
+
+.add-input:focus {
+  border: 1px solid #2980b9;
+}
+
+.add-button {
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #2980b9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task li {
+  font-size: 0.9rem;
+  margin: 10px;
+  background: white;
+  width: 480px;
+  display: flex;
+  list-style: none;
+}
